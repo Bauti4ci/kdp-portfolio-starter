@@ -1,6 +1,12 @@
 export const ES = {
 	KEY: 'ES',
-	title: 'Mi Portafolio de trabajos',
-	name: 'Ariel Penna',
-	language: 'Mi Idioma nativo es el español',
+	title: 'Bautista Forciniti',
+	name: 'Bautista Forciniti',
+	whatido: 'Programador junior',
+	aboutme: 'Sobre mi',
+	contact: 'Contacto',
+	pag: 'Inicio',
+	cv: 'Mi cv',
+	pro: 'Proyectos',
+	dcv: 'Descarga mi cv',
 };

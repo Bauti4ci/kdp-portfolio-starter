@@ -35,14 +35,34 @@ button {
 }
 
 .links {
-  padding: 16px;
+  margin: 16px;
   color: white;
+  text-decoration: none;
+  padding: 0px;
 
+}
+
+.active-link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.links :active {
+  background-color: #00000000;
+  color: currentColor;
+  padding: 0px;
+
+}
+
+Link {
+  text-decoration: none;
+  color: currentColor;
 }
 
 .links :hover {
   font-weight: bolder;
   color: white;
+  background-color: #00000000;
 }
 
 .nav {
@@ -118,8 +138,9 @@ button {
   align-content: center;
   font-size: 28px;
   justify-content: center !important;
-  width: 350px;
+  width: 380px;
   /*   margin-left: 775px; */
+  text-decoration: none;
 }
 
 #pagescontent {

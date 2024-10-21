@@ -7,18 +7,15 @@ function Proyects({ lang, dark }) {
         <>
             <h1 id='titulo2' className='cuerpo'>{lang.pro}</h1>
             <div className='pagescontent2'>
-                <div className='blockt2'>  {/* <a href={KpsCalculadora} download="KpsCalculadora.rar" > */} <p>Calculadora JS</p>
-                    {dark ? <i className="bi bi-file-earmark-arrow-down-fill" style={{ color: 'white', }}></i> : <i className="bi bi-file-earmark-arrow-down-fill" style={{ color: 'black', }} > </i>}  {/* </a> */}
+                <div className='blockt2'> <a href={'https://github.com/Bauti4ci/Calculadora-JS'} className="links" target='_' > {dark ? <i className="bi bi-git">Calculadora JS</i> : <i className="bi bi-git" style={{ color: 'black', }}>Calculadora JS</i>} </a>
                 </div>
                 <br />
-                <div className='blockt2'>  {/* <a href={KpsRegistroPacientes.rar} download="KpsRegistroPacientes.rar" > */} <p>Registro de pacientes</p>
-                    {dark ? <i className="bi bi-file-earmark-arrow-down-fill" style={{ color: 'white', }}></i> : <i className="bi bi-file-earmark-arrow-down-fill" style={{ color: 'black', }} > </i>} {/*  </a> */}
+                <div className='blockt2'> <a href={'https://github.com/Bauti4ci/proyecto-kps'} className="links" target='_'> {dark ? <i className="bi bi-git">Registro pacientes</i> : <i className="bi bi-git" style={{ color: 'black', }}>Registro pacientes</i>} </a>
                 </div>
                 <br />
-                <div className='blockt2'>  {/* <a href={KpsCalculadoraDeCambio} download="KpsCalculadoraDeCambio.rar" > */} <p>Calculadora de cambio USD-ARS</p>
-                    {dark ? <i className="bi bi-file-earmark-arrow-down-fill" style={{ color: 'white', }}></i> : <i className="bi bi-file-earmark-arrow-down-fill" style={{ color: 'black', }} > </i>} {/*  </a> */}
+                <div className='blockt2'> <a href={'https://github.com/Bauti4ci/Calculadora_de_cambio'} className="links" target='_'> {dark ? <i className="bi bi-git">Calculadora de cambio</i> : <i className="bi bi-git" style={{ color: 'black', }}>Calculadora de cambio</i>} </a>
                 </div>
-            </div>
+            </div >
         </>
     )
 }

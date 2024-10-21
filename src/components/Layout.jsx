@@ -25,10 +25,10 @@ function Layout({ lang, dark, setDark, setLang }) {
 
                 <div className="right">
                     {/*                     <Link to={'/Aboutme'} className='links' >  {dark ? <i className="bi bi-person-lines-fill"> {lang.aboutme} </i> : <i className="bi bi-person-lines-fill" style={{ color: 'black', }}> {lang.aboutme} </i>} </Link>
- */}                    <Link to={'/Contact'} className='links' > {dark ? <i className="bi bi-person-fill-add"> {lang.contact} </i> : <i className="bi bi-person-fill-add" style={{ color: 'black', }}> {lang.contact} </i>}</Link>
-                    <Link to={'/Cvpage'} className='links' > {dark ? <i className="bi bi-file-earmark-person-fill"> {lang.cv} </i> : <i className="bi bi-file-earmark-person-fill" style={{ color: 'black', }}> {lang.cv} </i>}</Link>
-                    <Link to={'/Proyects'} className='links'> {dark ? <i className="bi bi-terminal"> {lang.pro} </i> : <i className="bi bi-terminal" style={{ color: 'black', }}> {lang.pro} </i>}</Link>
-                    <Link to={'/'} className='links' > {dark ? <i className="bi bi-house-fill"> </i> : <i className="bi bi-house-fill" style={{ color: 'black', }}> </i>}</Link >
+ */}                    <Link to={'/Contact'} className='links' activeClassName="active-link"> {dark ? <i className="bi bi-person-fill-add" > {lang.contact} </i> : <i className="bi bi-person-fill-add" style={{ color: 'black', }}> {lang.contact} </i>}</Link>
+                    <Link to={'/Cvpage'} className='links' activeClassName="active-link"> {dark ? <i className="bi bi-file-earmark-person-fill" > {lang.cv} </i> : <i className="bi bi-file-earmark-person-fill" style={{ color: 'black', }}> {lang.cv} </i>}</Link>
+                    <Link to={'/Proyects'} className='links' activeClassName="active-link"> {dark ? <i className="bi bi-terminal" > {lang.pro} </i> : <i className="bi bi-terminal" style={{ color: 'black', }}> {lang.pro} </i>}</Link>
+                    <Link to={'/'} className='links' activeClassName="active-link"> {dark ? <i className="bi bi-house-fill" > </i> : <i className="bi bi-house-fill" style={{ color: 'black', }}> </i>}</Link >
                 </div >
             </div>
             <Outlet />

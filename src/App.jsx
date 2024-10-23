@@ -6,7 +6,7 @@ import languages from './lang';
 import Aboutme from './components/Aboutme';
 import Contact from './components/Contact';
 import Home from './components/Home'
-import Layout from './components/layout';
+import Layout from './components/Layout';
 import Cvpage from './components/Cvpage';
 import Proyects from './components/Proyects';
 
